@@ -1,0 +1,74 @@
+// nesting
+.topbar-responsive {
+  background: linear-gradient(
+    to right,
+    map-get($colors, nav-primary) 0%,
+    map-get($colors, nav-secondary) 51%,
+    map-get($colors, nav-ter) 100%
+  );
+  padding: 1rem 1.5rem;
+
+  .menu {
+    background-color: unset;
+    li:last-of-type {
+      margin-right: 0px;
+    }
+
+    a {
+      color: $white;
+      transition: color 0.15s ease-in;
+
+      &:hover {
+        // color: lighten($topbar-responsive-bg, 60%);
+        text-decoration: underline;
+      }
+
+      @media screen and (max-width: 39.9375em) {
+        padding: 0.875rem 0;
+      }
+    }
+  }
+
+  @media screen and (max-width: 39.9375em) {
+    padding: 0.75rem;
+
+    .top-bar-title {
+      position: relative;
+      width: 100%;
+
+      span {
+        position: absolute;
+        right: 0;
+        border: 1px solid $white;
+        border-radius: 5px;
+        padding: 0.25rem 0.45rem;
+        top: 50%;
+        transform: translateY(-50%);
+
+        .menu-icon {
+          margin-bottom: 4px;
+        }
+      }
+    }
+  }
+}
+// color: map-get($colors,work_bg)
+
+.topbar-responsive .menu li:last-of-type {
+  margin-left: 0%;
+}
+.top-bar-right div {
+  border-style: none !important;
+}
+
+.top-bar .top-bar-right {
+  margin-right: 200px;
+}
+
+.topbar-right ul {
+  padding-left: 100px;
+}
+#logo {
+  color: $white;
+  font-family: elephant;
+}

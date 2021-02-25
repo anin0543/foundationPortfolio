@@ -1,0 +1,131 @@
+<!-- project section -->
+
+<body>
+    <div id="works">
+        <section class="projects text-center">
+            <p class="title">My Recent Work</p>
+            <p class="subtitle">Here are a few design projects I've worked on recently. Want to see more?<a
+                    href="mailto:aninamahat93@gmail.com"> Email me</a></p>
+            <div class="grid-container projects-grid">
+                <div class="grid-x">
+                    <div class="cell large-4 small-12">
+                        <div class="card">
+                            <button type="button" class="p-0 btn btn-link" data-open="firstModal"><img
+                                    class="card-img-top" alt="Image for chatapp"
+                                    src="{{root}}assets/img/reactchatapp.JPG"></button>
+                            <div class="card-body text-left">
+                                <button type="button" class="p-0 btn" data-open="firstModal">
+                                    <p class="card-title">Sajha-Sanchar</p>
+                                </button>
+                                <p class="card-text m-0">Chat app built with react-redux as AP-Degree final
+                                    project.</p>
+                                <a class="icon-link" href="https://sajhasancharani.firebaseapp.com/"
+                                    target="blank"><span><i class="fas fa-external-link-alt"></i></span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cell large-4 small-12">
+                        <div class="card">
+                            <button type="button" class="p-0 btn btn-link" data-open="secondModal"><img
+                                    class="card-img-top" alt="Image for Durbar"
+                                    src="{{root}}assets/img/durbar.JPG"></button>
+                            <div class="card-body text-left">
+                                <button type="button" class="p-0 btn" data-open="secondModal">
+                                    <p class="card-title">Durbar</p>
+                                </button>
+                                <p class="card-text m-0">School management platform created as the part of school
+                                    project.</p>
+                                <a class="icon-link" href="https://durbar.herokuapp.com/" target="blank"><span><i
+                                            class="fas fa-external-link-alt"></i></span></a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="cell large-4 small-12">
+                        <div class="card">
+                            <button type="button" class="p-0 btn btn-link" data-open="thirdModal"><img
+                                    class="card-img-top" alt="Image for Durbar"
+                                    src="{{root}}assets/img/ktk.JPG"></button>
+                            <div class="card-body text-left">
+                                <button type="button" class="p-0 btn" data-open="thirdModal">
+                                    <p class="card-title">Ktk Siivous</p>
+                                </button>
+                                <p class="card-text m-0">Cleaning company websites created for a finland client
+                                </p>
+                                <a class="icon-link" href="http://www.ktksiivous.com/services/kotisiivous/"
+                                    target="blank"><span><i class="fas fa-external-link-alt"></i></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- reveal section -->
+    <!-- sajhaSanchar reveal -->
+    <div class=" tiny reveal" id="firstModal" data-reveal data-overlay="false">
+        <div class="modal-body">
+            <h4>Sajha Sanchar</h4>
+            <hr>
+            <img src="{{root}}assets/img/reactchatapp.JPG" class="card-img">
+            <h4>About the project</h4>
+            <p class="app-intro">Chat app built with react-redux as AP-Degree final project.</p>
+            <p class="app-intro">React, mysql, node.js, amazon aws s3, bootstrap</p>
+            <h4>Tools used</h4>
+            <ul>
+                <li><b>Visual Studio Code: </b>IDE used for the project</li>
+                <li><b>Heroku: </b>A cloud based hosting service for hosting our web application</li>
+                <li><b>Amazon AWS S3: </b>A cloud based storage service used for storing our images</li>
+                <li><b>Firebase: </b>A web-development platform used for user's authentication</li>
+            </ul>
+        </div>
+        <button class="close-button" data-close aria-label="Close reveal" type="button">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+    <!-- Durbar reveal -->
+    <div class=" tiny reveal" id="secondModal" data-reveal data-overlay="false">
+        <div class="modal-body">
+            <h4>Durbar</h4>
+            <hr>
+            <img src="{{root}}assets/img/durbar.JPG" class="card-img">
+            <h4>About the project</h4>
+            <p class="app-intro">School management platform created as final year project</p>
+            <p class="app-intro">React, mysql, node.js, amazon aws s3, bootstrap</p>
+            <h4>Tools used</h4>
+            <ul>
+                <li><b>Visual Studio Code: </b>IDE used for the project</li>
+                <li><b>Heroku: </b>A cloud based hosting service for hosting our web application</li>
+                <li><b>Amazon AWS S3: </b>A cloud based storage service used for storing our images</li>
+                <li><b>MySQL: </b>A web-development platform used for data storage</li>
+            </ul>
+        </div>
+        <button class="close-button" data-close aria-label="Close reveal" type="button">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+    <!-- ktksiivous -->
+    <div class=" tiny reveal" id="thirdModal" data-reveal data-overlay="false">
+        <div class="modal-body">
+            <h4>Durbar</h4>
+            <hr>
+            <img src="{{root}}assets/img/ktk.JPG" class="card-img">
+            <h4>About the project</h4>
+            <p class="app-intro">Cleaning company websites created for a finland client</p>
+            <p class="app-intro">React, mysql, node.js, amazon aws s3, bootstrap</p>
+            <h4>Tools used</h4>
+            <ul>
+                <li><b>Visual Studio Code: </b>IDE used for the project</li>
+                <li><b>Heroku: </b>A cloud based hosting service for hosting our web application</li>
+                <li><b>Amazon AWS S3: </b>A cloud based storage service used for storing our images</li>
+                <li><b>Firebase: </b>A web-development platform used for user's authentication</li>
+            </ul>
+        </div>
+        <button class="close-button" data-close aria-label="Close reveal" type="button">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+
+    </div>
+</body>
